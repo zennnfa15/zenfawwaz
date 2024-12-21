@@ -1,0 +1,29 @@
+<style>
+    .video-container {
+        position: relative;
+        width: 100%; /* Sesuaikan dengan lebar container */
+        max-width: 800px; /* Batas maksimal */
+        padding-top: 56.25%; /* Rasio 16:9 */
+    }
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/watch?v=o0Ur3lzE9t8" allowfullscreen></iframe>
+</div>
+hr.separator {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0; /* Jarak atas dan bawah */
+    width: 20%; /* Sesuaikan lebar garis */
+}
+.social-icons a img {
+    width: 5%;
+    height: 5%;
+}
